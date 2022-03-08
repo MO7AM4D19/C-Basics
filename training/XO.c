@@ -84,7 +84,7 @@ void CheckPlate(char Turns[10],int CurrentChoice)
     {
         if(Turns[CurrentChoice]=='X'||Turns[CurrentChoice]=='O')
         {
-             error=1;
+            error=1;
         }
     }
 }
