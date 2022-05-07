@@ -1,5 +1,7 @@
 # depslib dependency file v1.0
-1649241440 source:c:\users\mo7am4d kh4lid\projects\debug\main.c
+1651941082 source:c:\users\mo7am4d kh4lid\projects\debug\main.c
 	<stdio.h>
-	<stdlib.h>
+	"stypes.h"
+
+1651918476 c:\users\mo7am4d kh4lid\projects\debug\stypes.h
 

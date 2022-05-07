@@ -53,7 +53,7 @@ void BinToDec()
 }
 void DecToBin()
 {
-    u32 num;
+    s32 num;
     u8 bin[8];
     printf("enter the number you want to transform: ");
     scanf(" %d",&num);
@@ -62,11 +62,11 @@ void DecToBin()
         if((num-bitValue[i])>0)
         {
             bin[i]=1;
-
+            num-=bitValue[i];
         }
-        num-=bitValue[i];
+        
     }
-    for(int i=0;i<8;i++)
+    for(int i=7;i>=0;i--)
     {
         printf("%d",bin[i]);
     }
